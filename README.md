@@ -1,0 +1,2 @@
+# Retail-Intelligence-A-Data-Driven-Study-of-Product-Attributes-Sales-Performance-in-E-commerce
+This project delivers a data-driven Retail Intelligence Roadmap to transform e-commerce data into strategy. By analyzing 500 records, it identifies a "Success Formula" for material and price. It solves the "Autumn Sales Cliff" and reduces "Dead Stock" through seasonal trend mapping, shifting retail from reactive guessing to proactive profit.
