@@ -10,16 +10,15 @@ This project delivers a data-driven Retail Intelligence & Procurement Roadmap de
 ## **Dataset Overview** :
 
 Dataset is taken from UCI Machine Learning Repository - https://archive.ics.uci.edu/dataset/289/dresses+attribute+sales
+
 The analysis is based on two primary datasets containing information on retail dress inventory and performance:
 
 **Attribute Dataset**: Contains categorical and descriptive features for 500 unique dress designs.
-
 Key Features: Style, Price, Rating, Size, Season, NeckLine, SleeveLength, and Material composition.
-Purpose: To define the physical characteristics and market positioning of each product.
 
 **Dress Sales Dataset**: A time-series dataset tracking the sales volume for each Dress_ID across 23 specific dates in 2013.
-
 Key Features: Daily sales counts per item.
-Purpose: To provide the raw performance metrics needed to calculate total sales velocity and identify trends.
 
 These datasets are linked via a common unique identifier, Dress_ID. To perform the analysis, the time-series sales data was aggregated into a single Total_Sales metric and merged with the attribute data to create a comprehensive "Retail Intelligence" master file.
+
+
