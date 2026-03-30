@@ -21,4 +21,29 @@ Key Features: Daily sales counts per item.
 
 These datasets are linked via a common unique identifier, Dress_ID. To perform the analysis, the time-series sales data was aggregated into a single Total_Sales metric and merged with the attribute data to create a comprehensive "Retail Intelligence" master file.
 
+## **Data Cleaning & Preprocessing**
 
+To ensure high-quality insights, the raw data underwent a rigorous cleaning process:
+
+* Handling Missing values: Handled missing values in critical columns like Material, FabricType, and Price using mode imputation and logical mapping.
+* Feature Engineering: Created a Total_Sales metric by aggregating time-series sales data across all recorded dates.
+Mapped "Autumn" and "Winter" categories to identify seasonal demand shifts.
+* Data Standardization: Corrected inconsistent labeling (e.g., standardizing "low" vs "Low" in Price categories) and found and removed duplicate entries
+* Merging: Integrated the Attribute Dataset and Sales Dataset into a single final dataset using common attribute in both dataset.
+
+## **EDA & Visualizations**
+
+I performed Exploratory Data Analysis (EDA) using different visualizations to uncover hidden patterns:
+
+* Distribution Analysis: Histograms and Box Plots to understand price spread and sales outliers.
+* Categorical Performance: Bar Charts and Count Plots to identify the most popular Styles and Materials.
+* Relationship Mapping: Scatter Plots used to visualize the correlation between Price, Rating, and Total_Sales.
+* Violin Plots: To compare sales distribution across different Recommendation statuses.
+* Heatmaps: A correlation heatmap was used to identify which numerical features move together (e.g., how Rating affects Recommendation probability).
+
+## **Key Insights & Findings**
+
+* The "Sweet Spot" Strategy: High sales are not driven by "5-star" ratings alone. The highest volume occurs in Average-Priced items with a 4.0+ Rating.
+* Recommendation Power: Products flagged as "Recommended" by the platform's algorithm see a significantly higher sales velocity compared to non-recommended items, regardless of price.
+* The Autumn Sales Cliff: The data reveals a sharp decline in sales during the Autumn season. This is linked to a Material Mismatch, where Summer fabrics (Chiffon/Thin Cotton) are overstocked during cooler months.
+* Hero Materials: Cotton, Polyester, and Chiffon remain the dominant revenue drivers, but their success is highly dependent on matching the right Neckline and SleeveLength to the current season.
