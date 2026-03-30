@@ -21,7 +21,7 @@ Key Features: Daily sales counts per item.
 
 These datasets are linked via a common unique identifier, Dress_ID. To perform the analysis, the time-series sales data was aggregated into a single Total_Sales metric and merged with the attribute data to create a comprehensive "Retail Intelligence" master file.
 
-## **Data Cleaning & Preprocessing**
+## **Data Cleaning & Preprocessing** :
 
 To ensure high-quality insights, the raw data underwent a rigorous cleaning process:
 
@@ -31,7 +31,7 @@ Mapped "Autumn" and "Winter" categories to identify seasonal demand shifts.
 * Data Standardization: Corrected inconsistent labeling (e.g., standardizing "low" vs "Low" in Price categories) and found and removed duplicate entries
 * Merging: Integrated the Attribute Dataset and Sales Dataset into a single final dataset using common attribute in both dataset.
 
-## **EDA & Visualizations**
+## **EDA & Visualizations** :
 
 I performed Exploratory Data Analysis (EDA) using different visualizations to uncover hidden patterns:
 
@@ -41,7 +41,7 @@ I performed Exploratory Data Analysis (EDA) using different visualizations to un
 * Violin Plots: To compare sales distribution across different Recommendation statuses.
 * Heatmaps: A correlation heatmap was used to identify which numerical features move together (e.g., how Rating affects Recommendation probability).
 
-## **Key Insights & Findings**
+## **Key Insights & Findings** :
 
 * The "Sweet Spot" Strategy: High sales are not driven by "5-star" ratings alone. The highest volume occurs in Average-Priced items with a 4.0+ Rating.
 * Recommendation Power: Products flagged as "Recommended" by the platform's algorithm see a significantly higher sales velocity compared to non-recommended items, regardless of price.
