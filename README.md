@@ -1,9 +1,9 @@
 # **Retail-Intelligence-A-Data-Driven-Study-of-Product-Attributes-Sales-Performance**
-This project delivers a data-driven Retail Intelligence & Procurement Roadmap designed to transform raw e-commerce apparel data into actionable business strategy. By analyzing over [Insert Number, e.g., 500+] product records, the analysis identifies the 'Golden Success Formula'—the specific intersection of material, price, and customer sentiment that drives maximum sales volume. The study reveals critical inefficiencies, such as the 'Autumn Sales Cliff,' and provides a precise framework for inventory optimization, helping businesses shift from reactive guessing to proactive profit management. Through diagnostic analytics and seasonal trend mapping, this project offers a scalable methodology to reduce 'Dead Stock' and maximize inventory turnover, paving the way for future predictive machine learning integration.
+This project delivers a data-driven Retail Intelligence & Procurement Roadmap designed to transform raw apparel data into actionable business strategy. By analyzing over 500+ product records, the analysis identifies the 'Success Formula' the specific intersection of material, price, and customer sentiment that drives maximum sales volume. The study reveals critical inefficiencies, such as the 'Autumn Sales Cliff,' and provides a precise framework for inventory optimization, helping businesses shift from reactive guessing to proactive profit management. Through diagnostic analytics and seasonal trend mapping, this project offers a scalable methodology to reduce 'Dead Stock' and maximize inventory turnover, paving the way for future predictive machine learning integration.
 
 ## **Objective** :
 
-* To identify which physical attributes (Material, Style, Price) drive high sales volume in the e-commerce sector.
+* To identify which physical attributes (Material, Style, Price) drive high sales volume.
 * To determine if Customer Ratings and System Recommendations significantly contribute to an increase in sales.
 * To identify which types of fabric materials perform best during different seasons and evaluate if a seasonal sales strategy is effective for the business.
 
