@@ -32,7 +32,7 @@ To ensure high-quality insights, the raw data underwent a rigorous cleaning proc
 
 ## **EDA & Visualizations** :
 
-I performed Exploratory Data Analysis (EDA) using different visualizations to uncover hidden patterns:
+Performed Exploratory Data Analysis (EDA) using different visualizations to uncover hidden patterns:
 
 * Distribution Analysis: Histograms and Box Plots to understand price spread and sales outliers.
 * Categorical Performance: Bar Charts and Count Plots to identify the most popular Styles and Materials.
